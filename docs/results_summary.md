@@ -4,7 +4,7 @@
 
 This document summarizes the major physical and computational findings from the Li–Cu–H ternary hydride search.
 
-
+---
 
 # 1. Overview
 
