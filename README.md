@@ -33,9 +33,7 @@ A complete visual overview of the workflow, results, and scientific motivation i
 📄 **MatterGen_MatterSim_Li-Cu-H.pptx**
 
 This slide deck illustrates:
-- Workflow diagram  
-- Example MatterGen structures  
-- MatterSim relaxations across pressures  
+- Workflow 
 - ML convex hulls  
 - DFT hull validation  
 - Key findings  
