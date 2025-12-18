@@ -27,9 +27,9 @@ Large simulation files are intentionally omitted, but **final results, figures, 
 
 ---
 
-# 🎥 Visualization: Quick Project Summary (PPT)
+# 🎥 Quick Visualization: Project Summary (PPT)
 
-A complete visual overview of the workflow, results, and scientific motivation is available in:
+A brief visual overview of the workflow, results, and scientific motivation is available in:
 
 📄 **MatterGen_MatterSim_Li-Cu-H.pptx**
 
