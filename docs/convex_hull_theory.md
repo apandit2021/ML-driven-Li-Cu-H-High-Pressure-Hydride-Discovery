@@ -1,9 +1,9 @@
----
+
 # ---------------------------------------
 # 📗 ** `docs/convex_hull_theory.md`**
 # ---------------------------------------
 
-```markdown
+
 # Convex Hull Theory (for Phase Stability)
 
 The convex hull of formation enthalpy is a central tool in materials thermodynamics.
