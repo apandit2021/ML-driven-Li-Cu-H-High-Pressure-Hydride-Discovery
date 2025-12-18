@@ -1,3 +1,4 @@
+---
 ```markdown
 # Results Summary: Li–Cu–H Convex Hulls Across 0–100 GPa
 
