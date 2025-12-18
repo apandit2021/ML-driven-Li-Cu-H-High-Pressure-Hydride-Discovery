@@ -1,4 +1,6 @@
-
+# ---------------------------------------
+# 📗 `docs/convex_hull_theory.md`**
+# ---------------------------------------
 
 ```markdown
 # Convex Hull Theory (for Phase Stability)
