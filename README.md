@@ -16,31 +16,25 @@ Large simulation files are intentionally omitted, but **final results, figures, 
 # 📂 Repository Structure
 
 LiCuH-Hydrides-HighPressure-Study/
-│
-├── README.md ← Main project summary (this file)
-│
-├── outputs_hull_mattersim/ ← MatterSim (ML) convex hulls
+├── README.md
+├── outputs_hull_mattersim/
 │ ├── 0_GPa/
 │ ├── 5_GPa/
 │ ├── 10_GPa/
 │ ├── ...
 │ └── 100_GPa/
-│
-├── outputs_hull_dft/ ← DFT convex hulls
+├── outputs_hull_dft/
 │ ├── 0_GPa/
 │ ├── 12_GPa/
 │ ├── 50_GPa/
 │ ├── 100_GPa/
 │ └── DeltaH_comparison_0vs100GPa.csv
-│
 ├── docs/
-│ ├── workflow_overview.md ← Detailed methodology
-│ ├── results_summary.md ← Scientific interpretation
-│ ├── convex_hull_theory.md ← Reference theory
-│ └── images/ ← Figures exported from scripts/PPT
-│
+│ ├── workflow_overview.md
+│ ├── results_summary.md
+│ ├── convex_hull_theory.md
+│ └── images/
 └── MatterGen_MatterSim_Li-Cu-H.pptx
-
 
 ---
 
