@@ -26,7 +26,7 @@ Large simulation files are intentionally omitted, but **final results, figures, 
 
 ---
 
-# 🎥 Project Showcase (PPT)
+# 🎥 Visualization: Quick Project Summary (PPT)
 
 A complete visual overview of the workflow, results, and scientific motivation is available in:
 
