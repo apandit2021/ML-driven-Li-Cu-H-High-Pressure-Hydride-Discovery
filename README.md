@@ -21,7 +21,8 @@ Large simulation files are intentionally omitted, but **final results, figures, 
 - **docs/**  
   - workflow_overview.md  
   - results_summary.md  
-  - convex_hull_theory.md    
+  - convex_hull_theory.md
+  - notes.md   
 - **MatterGen_MatterSim_Li-Cu-H.pptx** — Workflow & results presentation 
 
 ---
