@@ -168,3 +168,11 @@ This repository is intended for:
 Large raw datasets and simulation inputs are intentionally excluded for clarity.
 
 For questions or collaboration, feel free to reach out.
+
+# References
+MatterGen: https://www.nature.com/articles/s41586-025-08628-5
+MatterSim: https://arxiv.org/html/2405.04967v1
+DFT: https://www.imperial.ac.uk/media/imperial-college/research-centres-and-groups/computational-materials-science/teaching/DFT_NATO.pdf
+VASP: https://www.vasp.at/
+
+
