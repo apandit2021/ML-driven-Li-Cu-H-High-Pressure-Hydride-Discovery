@@ -1,5 +1,5 @@
----
-```markdown
+
+
 # Results Summary: Li–Cu–H Convex Hulls Across 0–100 GPa
 
 This document summarizes the major physical and computational findings from the Li–Cu–H ternary hydride search.
