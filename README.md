@@ -16,7 +16,7 @@ Large simulation files are intentionally omitted, but **final results, figures, 
 # 📂 Repository Structure
 
 LiCuH-Hydrides-HighPressure-Study/
-├── README.md
+├── README.md/
 ├── outputs_hull_mattersim/
 │ ├── 0_GPa/
 │ ├── 5_GPa/
