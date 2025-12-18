@@ -2,12 +2,6 @@
 # 📕 **4. Workflow Diagram**
 # ---------------------------------------
 
-### ✔ ASCII version (ready for README.md)
-
-less
-Copy code
-
-
    ┌────────────┐
    │ MatterGen  │
    │  (2000+)   │
