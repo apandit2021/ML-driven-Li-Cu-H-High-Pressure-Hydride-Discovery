@@ -17,7 +17,8 @@ Large simulation files are intentionally omitted, but **final results, figures, 
 
 - **README.md** — Project overview  
 - **outputs_hull_mattersim/** — Convex hulls from MatterSim (ML)  
-- **outputs_hull_dft/** — Convex hulls from DFT validation  
+- **outputs_hull_dft/** — Convex hulls from DFT validation
+- **images/** - Convex hull plots
 - **docs/**  
   - workflow_overview.md  
   - results_summary.md  
