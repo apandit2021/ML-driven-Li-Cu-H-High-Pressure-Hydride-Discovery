@@ -1,0 +1,6 @@
+rank,pressure_GPa,spacegroup_number,formula,n_atoms,H_form_eV_per_atom,source,written
+1,0,139,LiH,2,-0.4186477113038145,/home/apandit/Applications/MatterGen/mattergen-main/test_self/test_licuh/mattersim_rel_pres/0_GPa/batch_14/sample_18.vasp,outputs_hull_mattersim/0_GPa/structures/CONTCAR_1_0_139_LiH.vasp
+2,0,8,LiCu4H,6,-0.33060895464845785,/home/apandit/Applications/MatterGen/mattergen-main/test_self/test_licuh/mattersim_rel_pres/0_GPa/batch_89/sample_7.vasp,outputs_hull_mattersim/0_GPa/structures/CONTCAR_2_0_8_LiCu4H.vasp
+3,0,1,Li2Cu11H2,15,-0.278983160076064,/home/apandit/Applications/MatterGen/mattergen-main/test_self/test_licuh/mattersim_rel_pres/0_GPa/batch_65/sample_10.vasp,outputs_hull_mattersim/0_GPa/structures/CONTCAR_3_0_1_Li2Cu11H2.vasp
+4,0,187,LiCu,2,-0.2312886148315001,/home/apandit/Applications/MatterGen/mattergen-main/test_self/test_licuh/mattersim_rel_pres/0_GPa/batch_85/sample_15.vasp,outputs_hull_mattersim/0_GPa/structures/CONTCAR_4_0_187_LiCu.vasp
+5,0,221,Cu4H,5,-0.21255513474798562,/home/apandit/Applications/MatterGen/mattergen-main/test_self/test_licuh/mattersim_rel_pres/0_GPa/batch_75/sample_11.vasp,outputs_hull_mattersim/0_GPa/structures/CONTCAR_5_0_221_Cu4H.vasp
