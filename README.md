@@ -74,8 +74,9 @@ a Li(s) + b Cu(s) + (c/2) H2(g) → Li_a Cu_b H_c
 
 ### Formation Enthalpy (per atom)
 ΔHf(P) = [ H_tot(cell, P)
-           − ( a·H_Li(P) + b·H_Cu(P) + (c/2)·H_H2(P) ) ],
+           − ( a·H_Li(P) + b·H_Cu(P) + (c/2)·H_H2(P) ) ]
          / (a + b + c)
+\
 where H_XX (P) denote the enthalpy per atom of the individual elemental systems at pressure P.
 
 
