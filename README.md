@@ -51,10 +51,7 @@ This study follows a structured computational materials discovery pipeline:
 ### **2️⃣ ML Relaxation (MatterSim)**
 Each generated structure was relaxed at pressures:
 
-
-
 0, 5, 10, 12, 20, 40, 50, 75, 100 GPa
-
 
 MatterSim (an ML potential trained on >5M structures) provided:
 - relaxed atomic positions  
@@ -68,20 +65,56 @@ Relaxed outputs → `outputs_hull_mattersim/`.
 
 # 🧮 Formation Enthalpy Calculation
 
-For each relaxed structure at pressure \(P\):
+## 🔷 Enthalpy of Formation (ΔH<sub>f</sub>) Used in This Project
+
+The enthalpy of formation per atom at pressure \(P\) is:
 
 \[
+\boxed{
+\Delta H_f(P) =
+\frac{
+H_{\text{tot}}^{\text{cell}}(P)
+-
+\left(
+a\,\mu_{\mathrm{Li}}(P)
++
+b\,\mu_{\mathrm{Cu}}(P)
++
+\frac{c}{2}H_{\mathrm{H}_2}(P)
+\right)
+}{
+a + b + c
+}
+}
+\]
+
+More generally:
+
+\[
+\boxed{
 \Delta H_f =
-\frac{ H_\text{tot}(cell)
-- \sum_i n_i \mu_i
-- \sum_{X\in \text{diatomics}} (n_X/2) H_{X_2} }
-{ N_\text{atoms} }
+\frac{
+H_{\text{tot}}
+-
+\sum_{i \notin \text{diatomics}} n_i \mu_i
+-
+\sum_{X \in \text{diatomics}}
+\left(\frac{n_X}{2}\right) H_{X_2}
+}{
+N_{\text{atoms}}
+}
+}
 \]
 
 Where:
-- \(H_\text{tot} = E + PV\) (from MatterSim or VASP)
-- \(\mu_i\) are monatomic energies from `elemental_licuh_energies_enthalpies.csv`
-- \(H_{X_2}\) (e.g., H₂) provides consistent molecular reference states
+
+- \(H_{\text{tot}} = E + PV\) (from ML or DFT)
+- \(\mu_i\): per-atom elemental enthalpies  
+- \(H_{X_2}\): per-molecule reference enthalpy for diatomics  
+- \(n_i\): atom counts  
+- \(N_{\text{atoms}} = a + b + c\)
+
+
 
 ---
 
