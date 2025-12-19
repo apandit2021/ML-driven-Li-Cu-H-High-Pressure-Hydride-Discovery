@@ -1,0 +1,10 @@
+rank,pressure_GPa,spacegroup_number,formula,n_atoms,H_form_eV_per_atom,source,written
+1,100,225,Li1H1,2,-1.4099783524454428,vasp_calcs/1000_kBar/11_LiH/scf/POSCAR,outputs_hull_dft/100_GPa/structures/CONTCAR_1_100_225_Li1H1.vasp
+2,100,1,Li8Cu1H3,12,-0.8529851592977092,vasp_calcs/1000_kBar/19_Li8CuH3/scf/POSCAR,outputs_hull_dft/100_GPa/structures/CONTCAR_2_100_1_Li8Cu1H3.vasp
+3,100,15,Li2Cu2H4,8,-0.8236467107329718,vasp_calcs/1000_kBar/18_LiCuH2/scf/POSCAR,outputs_hull_dft/100_GPa/structures/CONTCAR_3_100_15_Li2Cu2H4.vasp
+4,100,1,Li6H2,8,-0.7454284498685331,vasp_calcs/1000_kBar/1_Li3H/scf/POSCAR,outputs_hull_dft/100_GPa/structures/CONTCAR_4_100_1_Li6H2.vasp
+5,100,123,Li1Cu1,2,-0.5285623838666815,vasp_calcs/1000_kBar/3_LiCu/scf/POSCAR,outputs_hull_dft/100_GPa/structures/CONTCAR_5_100_123_Li1Cu1.vasp
+6,100,42,Li2Cu6H8,16,-0.5157132148767363,vasp_calcs/1000_kBar/5_LiCu3H4/scf/POSCAR,outputs_hull_dft/100_GPa/structures/CONTCAR_6_100_42_Li2Cu6H8.vasp
+7,100,1,Li9Cu1H1,11,-0.4625761087423283,vasp_calcs/1000_kBar/9_Li9CuH/scf/POSCAR,outputs_hull_dft/100_GPa/structures/CONTCAR_7_100_1_Li9Cu1H1.vasp
+8,100,1,Li1Cu6H6,13,-0.3918393517721255,vasp_calcs/1000_kBar/7_LiCuH6/scf/POSCAR,outputs_hull_dft/100_GPa/structures/CONTCAR_8_100_1_Li1Cu6H6.vasp
+9,100,164,Cu2H1,3,-0.18820752866091336,vasp_calcs/1000_kBar/12_Cu2H/scf/POSCAR,outputs_hull_dft/100_GPa/structures/CONTCAR_9_100_164_Cu2H1.vasp

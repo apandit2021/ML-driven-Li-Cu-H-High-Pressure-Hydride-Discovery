@@ -1,0 +1,3 @@
+rank,pressure_GPa,spacegroup_number,formula,n_atoms,H_form_eV_per_atom,source,written
+1,12,139,Li1H1,2,-0.7509215171597972,vasp_calcs/120_kBar/2_LiH/scf/POSCAR,outputs_hull_dft/12_GPa/structures/CONTCAR_1_12_139_Li1H1.vasp
+2,12,187,Li1Cu1,2,-0.15978304041810265,vasp_calcs/120_kBar/5_LiCu/scf/POSCAR,outputs_hull_dft/12_GPa/structures/CONTCAR_2_12_187_Li1Cu1.vasp
