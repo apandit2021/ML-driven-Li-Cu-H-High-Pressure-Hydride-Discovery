@@ -16,7 +16,7 @@ Large simulation files are intentionally omitted, but **final results, figures, 
 # 📂 Repository Structure
 
 - **README.md** — Project overview  
-- **outputs_hull_mattersim/** — Convex hull plots and data (several .csv files and most stable structures in .vasp format) from MatterGen + MatterSim (ML) at different pressures
+- **outputs_hull_mattersim/** — Convex hull plots and data (several .csv files and most stable structures in .vasp format) from ML models (MatterGen + MatterSim) at different pressures
 - **outputs_hull_dft/** — Convex hulls and data from DFT validation 
 - **images/** - Convex hull plots via ML and DFT highlighting the stable Li-Cu-H compositions at different pressures
 - **docs/**  
