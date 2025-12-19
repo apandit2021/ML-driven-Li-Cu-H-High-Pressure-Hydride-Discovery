@@ -68,14 +68,15 @@ Relaxed outputs → `outputs_hull_mattersim/`.
 ## 🔷 Enthalpy of Formation (ΔH<sub>f</sub>) Used in This Project
 
 ### Formation Reaction
-For a compound with composition Li_a Cu_b H_c:
+For a compound with composition Li_a Cu_b H_c (a, b, and c represent the numbers of corresponding elemental-atoms in the cmposition):
 
 a Li(s) + b Cu(s) + (c/2) H2(g) → Li_a Cu_b H_c
 
 ### Formation Enthalpy (per atom)
 ΔHf(P) = [ H_tot(cell, P)
-           − ( a·μ_Li(P) + b·μ_Cu(P) + (c/2)·H_H2(P) ) ]
+           − ( a·H_Li(P) + b·H_Cu(P) + (c/2)·H_H2(P) ) ],
          / (a + b + c)
+where H_XX (P) denote the enthalpy per atom of the individual elemental systems at pressure P.
 
 
 ---
