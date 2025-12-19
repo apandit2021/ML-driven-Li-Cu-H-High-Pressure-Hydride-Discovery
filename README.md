@@ -105,6 +105,7 @@ Example finding:
 
 MatterSim-predicted stable compounds were re-relaxed using **DFT (VASP)**.
 
+Only four pressure ranges (0, 12, 50, and 100 GPa selected) for DFT calculations for now.
 A structure is accepted only if:
 - SCF converged  
 - Pressure satisfies:  
