@@ -67,53 +67,15 @@ Relaxed outputs → `outputs_hull_mattersim/`.
 
 ## 🔷 Enthalpy of Formation (ΔH<sub>f</sub>) Used in This Project
 
-The enthalpy of formation per atom at pressure \(P\) is:
+### Formation Reaction
+For a compound with composition Li_a Cu_b H_c:
 
-\[
-\boxed{
-\Delta H_f(P) =
-\frac{
-H_{\text{tot}}^{\text{cell}}(P)
--
-\left(
-a\,\mu_{\mathrm{Li}}(P)
-+
-b\,\mu_{\mathrm{Cu}}(P)
-+
-\frac{c}{2}H_{\mathrm{H}_2}(P)
-\right)
-}{
-a + b + c
-}
-}
-\]
+a Li(s) + b Cu(s) + (c/2) H2(g) → Li_a Cu_b H_c
 
-More generally:
-
-\[
-\boxed{
-\Delta H_f =
-\frac{
-H_{\text{tot}}
--
-\sum_{i \notin \text{diatomics}} n_i \mu_i
--
-\sum_{X \in \text{diatomics}}
-\left(\frac{n_X}{2}\right) H_{X_2}
-}{
-N_{\text{atoms}}
-}
-}
-\]
-
-Where:
-
-- \(H_{\text{tot}} = E + PV\) (from ML or DFT)
-- \(\mu_i\): per-atom elemental enthalpies  
-- \(H_{X_2}\): per-molecule reference enthalpy for diatomics  
-- \(n_i\): atom counts  
-- \(N_{\text{atoms}} = a + b + c\)
-
+### Formation Enthalpy (per atom)
+ΔHf(P) = [ H_tot(cell, P)
+           − ( a·μ_Li(P) + b·μ_Cu(P) + (c/2)·H_H2(P) ) ]
+         / (a + b + c)
 
 
 ---
