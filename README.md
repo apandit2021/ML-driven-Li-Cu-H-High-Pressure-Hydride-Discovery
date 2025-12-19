@@ -23,15 +23,15 @@ Large simulation files are intentionally omitted, but **final results, figures, 
   - results_summary.md  
   - convex_hull_theory.md
   - notes.md   
-- **MatterGen_MatterSim_Li-Cu-H.pptx** — Workflow & results presentation 
+- **MatterGen_MatterSim_Li-Cu-H.pdf** — Workflow & results presentation 
 
 ---
 
-# 🎥 Quick Visualization: Project Summary (PPT)
+# 🎥 Quick Visualization: Project Summary (pdf)
 
 A brief visual overview of the workflow, results, and scientific motivation is available in:
 
-📄 **MatterGen_MatterSim_Li-Cu-H.pptx**
+📄 **MatterGen_MatterSim_Li-Cu-H.pdf**
 
 This slide deck illustrates:
 - Workflow 
