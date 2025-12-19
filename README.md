@@ -68,7 +68,7 @@ Relaxed outputs → `outputs_hull_mattersim/`.
 ## 🔷 Enthalpy of Formation (ΔH<sub>f</sub>) Used in This Project
 
 ### Formation Reaction
-For a compound with composition Li_a Cu_b H_c (a, b, and c represent the numbers of corresponding elemental-atoms in the cmposition):
+For a compound with composition Li_a Cu_b H_c (a, b, and c represent the numbers of corresponding elements in the composition):
 
 a Li(s) + b Cu(s) + (c/2) H2(g) → Li_a Cu_b H_c
 
